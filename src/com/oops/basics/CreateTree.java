@@ -1,6 +1,8 @@
 package com.oops.basics;
 
-public class CreateNodes
+import com.oops.basics.CreateNodes.Node;
+
+public class CreateTree 
 {
 	/*
 	 * Declaring Required Binary Search Tree Variables & Initializing data using Constructor
@@ -20,7 +22,7 @@ public class CreateNodes
 	 * Zero-argument Constructor for Root
 	 */
 	Node root;
-	CreateNodes()
+	CreateTree()
 	{
 		root = null;
 	}
@@ -73,7 +75,7 @@ public class CreateNodes
 	 */
 	public static void main(String[] args)
 	{
-		CreateNodes tree = new CreateNodes();
+		CreateTree tree = new CreateTree();
 		tree.insert(56);
 		tree.order();
 		System.out.println();
@@ -81,6 +83,36 @@ public class CreateNodes
 		tree.order();
 		System.out.println();
 		tree.insert(70);
+		tree.order();
+		System.out.println();
+		tree.insert(22);
+		tree.order();
+		System.out.println();
+		tree.insert(40);
+		tree.order();
+		System.out.println();
+		tree.insert(11);
+		tree.order();
+		System.out.println();
+		tree.insert(3);
+		tree.order();
+		System.out.println();
+		tree.insert(16);
+		tree.order();
+		System.out.println();
+		tree.insert(60);
+		tree.order();
+		System.out.println();
+		tree.insert(95);
+		tree.order();
+		System.out.println();
+		tree.insert(65);
+		tree.order();
+		System.out.println();
+		tree.insert(63);
+		tree.order();
+		System.out.println();
+		tree.insert(67);
 		tree.order();
 	}
 
